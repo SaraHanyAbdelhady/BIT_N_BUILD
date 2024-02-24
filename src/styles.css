@@ -25,3 +25,20 @@
     background-color: #04AA6D;
     color: white;
   }
+  .row {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+  }
+  
+  .justify-content-center {
+    -webkit-justify-content: center;
+  }
+  
+  .form-inline {
+    display: -webkit-flex;
+  }
+  
+  .card-wrapper {
+    -webkit-flex: 1;
+  }
+  
