@@ -2,6 +2,9 @@
 .topnav {
     background-color: #308edb;
     overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
   }
   
   /* Style the links inside the navigation bar */
@@ -63,6 +66,8 @@ text-align: center;
     transition: 0.3s;
     text-align: center;
     width: 50%;
+    margin: auto;
+    background-color: rgb(196, 195, 195);
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -73,12 +78,16 @@ text-align: center;
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
+    margin: 20px;
     text-align: center;
+    background-color: rgb(196, 195, 195);
   }
   .absolute {
-    position: absolute;
-    bottom: 10px;
+    position: fixed;
+    bottom: 0px;
     width: 100%;
     border: 3px solid #308edb;
+    text-align: center;
   }
+  
   
