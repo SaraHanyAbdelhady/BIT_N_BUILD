@@ -1,0 +1,18 @@
+*
+{
+    background-color: grey;
+}
+.card
+{
+    margin: 20px;
+
+}
+.card-title ,.card-text
+{
+    color: white;
+    font-size: 30px;
+}
+.topnav a {
+    bottom: zero;
+    position: sticky;
+  }
