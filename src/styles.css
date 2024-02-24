@@ -1,7 +1,10 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #308edb;
+  background-color: #2a7cc0;
   overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 /* Style the links inside the navigation bar */
@@ -41,5 +44,14 @@
   width: 100px;
   height: 100px;
  }
+
+ .absolute {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  border: 3px solid #2a7cc0;
+  text-align: center;
+}
+
 
  
