@@ -38,3 +38,15 @@
 
 
 } 
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url('C:\Users\20109\Downloads\minecraft-ten-font\MinecraftTen-VGORe.ttf');
+  }
+  h1{
+    font-family: myFirstFont;
+  }
