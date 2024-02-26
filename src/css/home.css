@@ -3,7 +3,6 @@
     background-color:  #026A6B;
     overflow: hidden;
     top: 0;
-    position: sticky;
   }
 
   
@@ -28,25 +27,10 @@
     background-color:  #006161;
     color: white;
   }
-
-.row{
-    padding: 1%;
-}
-
-.col{
-    width: 50%;
-
-
-} 
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-@font-face {
-    font-family: myFirstFont;
-    src: url('C:\Users\20109\Downloads\minecraft-ten-font\MinecraftTen-VGORe.ttf');
-  }
-  h1{
-    font-family: myFirstFont;
+  .absolute {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border: 3px solid  #026A6B;
+    text-align: center;
   }
